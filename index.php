@@ -1,13 +1,11 @@
 <?php
-    $x = 2;
-    $y = 3;
-    $z = $x + $y;
-    echo $z;
+    $name = "Lydia";
+    $message_count = 0;
+    $random_message_count = mt_rand(1,10);
+    $message_count = $message_count + $random_message_count;
+    $output_message = "Hello, {$name}. You have {$message_count} messages!";
+    echo $output_message;
 
 
-
-
-
-    echo "Hello banana world!";
 ?>
 
